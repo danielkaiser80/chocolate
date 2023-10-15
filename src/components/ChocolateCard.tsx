@@ -6,6 +6,7 @@ import {
   Typography,
 } from "@mui/material";
 import { Link } from "wouter";
+import { NUMBER_FORMAT } from "./shared.ts";
 
 interface PriceInfo {
   cheapestPricePer100g: number;
@@ -19,9 +20,6 @@ interface ChocolateCardProps {
   id: string;
 }
 
-const NUMBER_FORMAT = {
-  maximumFractionDigits: 2,
-};
 const ChocolateCard = ({ name, brand, priceInfo, id }: ChocolateCardProps) => (
   <Card>
     <CardContent>
