@@ -3,6 +3,7 @@ import { findChocolate } from "../backend/chocolate.service.ts";
 import Header from "../components/Header.tsx";
 import { Link } from "wouter";
 import PriceCard from "../components/PriceCard.tsx";
+import { Fragment } from "react";
 
 interface ChocolateDetailProps {
   id: string;
@@ -25,14 +26,13 @@ const ChocolateDetail = ({ id }: ChocolateDetailProps) => {
 
       {prices.length > 0 ? (
         prices.map((price) => (
-          <>
+          <Fragment key={price.shop + price.price}>
             <PriceCard
               price={price}
-              key={price.shop + price.price}
               cheapestPricePer100g={cheapestPricePer100g}
             />
             <hr />
-          </>
+          </Fragment>
         ))
       ) : (
         <Box>

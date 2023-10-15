@@ -1,8 +1,15 @@
-# React + TypeScript + Vite
+# Chocolate Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For the crazy chocolate junkies, this app provides a frontend to look for chocolate information, and links to buy the chocolates. As an addon, the app finds the cheapest store for each of the different types of chocolate.
 
-Currently, two official plugins are available:
+The app itself is just a proof of concept, so instead of a real backend, there is some mock data included.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Feel free to fork and / or add a backend.
+
+## Open issues and potential improvements
+
+- add a way to deploy, preferably using Docker
+- verify the integrity of the installed npm packages
+- verify the API
+- add exception handler
+- style the 404 page in a nicer way
