@@ -12,8 +12,8 @@ const App = () => {
     <>
       <Header />
       <Grid container spacing={2}>
-        {chocolates.map(({ brand, name, priceInfo }, index) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={index}>
+        {chocolates.map(({ id, brand, name, priceInfo }) => (
+          <Grid item xs={12} sm={6} md={4} lg={3} key={id}>
             <ChocolateCard name={name} brand={brand} priceInfo={priceInfo} />
           </Grid>
         ))}
