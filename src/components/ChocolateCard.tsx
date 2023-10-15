@@ -1,4 +1,11 @@
-import { Box, Card, CardContent, Link, Typography } from "@mui/material";
+import {
+  Box,
+  Card,
+  CardContent,
+  Link as MUILink,
+  Typography,
+} from "@mui/material";
+import { Link } from "wouter";
 
 interface PriceInfo {
   cheapestPricePer100g: number;
@@ -9,12 +16,13 @@ interface ChocolateCardProps {
   name: string;
   brand: string;
   priceInfo?: PriceInfo;
+  id: string;
 }
 
 const NUMBER_FORMAT = {
   maximumFractionDigits: 2,
 };
-const ChocolateCard = ({ name, brand, priceInfo }: ChocolateCardProps) => (
+const ChocolateCard = ({ name, brand, priceInfo, id }: ChocolateCardProps) => (
   <Card>
     <CardContent>
       <Box mb={2}>
@@ -33,7 +41,7 @@ const ChocolateCard = ({ name, brand, priceInfo }: ChocolateCardProps) => (
               )}{" "}
               € je 100g
             </Typography>
-            <Link href={priceInfo.cheapestShopLink}>Jetzt kaufen</Link>
+            <MUILink href={priceInfo.cheapestShopLink}>Jetzt kaufen</MUILink>
           </Box>
           <Box>
             <Typography variant="body2">
@@ -51,6 +59,10 @@ const ChocolateCard = ({ name, brand, priceInfo }: ChocolateCardProps) => (
           <Typography variant="body2">Derzeit nicht verfügbar 😭</Typography>
         </Box>
       )}
+
+      <hr />
+
+      <Link href={`/chocolates/${id}`}>Öffnen der Detail-Seite</Link>
     </CardContent>
   </Card>
 );

@@ -1,10 +1,13 @@
 import { Typography, Box } from "@mui/material";
 
-const Header = () => {
+interface HeaderProps {
+  title?: string;
+}
+const Header = ({ title }: HeaderProps) => {
   return (
     <Box textAlign="center" my={4}>
       <Typography variant="h3" component="h1">
-        Übersicht: Köstliche Schokolade
+        {title ?? "Übersicht: Köstliche Schokolade"}
       </Typography>
       <Typography variant="body1">
         Entdecken Sie eine Vielfalt an köstlichen Schokoladen-Tafeln von

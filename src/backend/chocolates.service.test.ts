@@ -90,6 +90,7 @@ describe("Calculate chocolate information correctly", () => {
     expect(chocolatesWithInfo.length).toEqual(2);
     expect(chocolatesWithInfo).toEqual([
       {
+        id: "1",
         name: "Sesam",
         brand: "Ritter-Sport",
         priceInfo: {
@@ -99,6 +100,7 @@ describe("Calculate chocolate information correctly", () => {
         },
       },
       {
+        id: "2",
         name: "Marzipan",
         brand: "Ritter-Sport",
         priceInfo: {
@@ -134,6 +136,7 @@ describe("Calculate chocolate information correctly", () => {
     ]);
     expect(chocolatesWithInfo).toEqual([
       {
+        id: "1",
         name: "Sesam",
         brand: "Ritter-Sport",
         priceInfo: undefined,

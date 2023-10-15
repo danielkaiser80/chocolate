@@ -84,6 +84,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/1"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -144,6 +150,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/2"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -204,6 +216,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/3"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -264,6 +282,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/4"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -324,6 +348,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/5"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -384,6 +414,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/6"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -444,6 +480,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/7"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -504,6 +546,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/8"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -541,6 +589,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   Derzeit nicht verfügbar 😭
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/9"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -601,6 +655,12 @@ exports[`Overview > should render the header correctly 1`] = `
                   € je 100g
                 </p>
               </div>
+              <hr />
+              <a
+                href="/chocolates/10"
+              >
+                Öffnen der Detail-Seite
+              </a>
             </div>
           </div>
         </div>
@@ -687,6 +747,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/1"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -747,6 +813,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/2"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -807,6 +879,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/3"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -867,6 +945,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/4"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -927,6 +1011,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/5"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -987,6 +1077,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/6"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -1047,6 +1143,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/7"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -1107,6 +1209,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/8"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -1144,6 +1252,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 Derzeit nicht verfügbar 😭
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/9"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>
@@ -1204,6 +1318,12 @@ exports[`Overview > should render the header correctly 1`] = `
                 € je 100g
               </p>
             </div>
+            <hr />
+            <a
+              href="/chocolates/10"
+            >
+              Öffnen der Detail-Seite
+            </a>
           </div>
         </div>
       </div>

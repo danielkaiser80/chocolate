@@ -5,7 +5,7 @@ import { describe } from "vitest";
 describe(ChocolateCard, () => {
   it("should render non available chocolate", () => {
     const result = render(
-      <ChocolateCard brand={"Ritter Sport"} name={"Alpenmilch"} />,
+      <ChocolateCard brand="Ritter Sport" name="Alpenmilch" id="1" />,
     );
     expect(result).toMatchSnapshot();
   });
@@ -13,13 +13,14 @@ describe(ChocolateCard, () => {
   it("should render available chocolate", () => {
     const result = render(
       <ChocolateCard
-        brand={"Ritter Sport"}
-        name={"Alpenmilch"}
+        brand="Ritter Sport"
+        name="Alpenmilch"
         priceInfo={{
           averagePricePer100g: 1.01,
           cheapestShopLink: "http://example.com/test",
           cheapestPricePer100g: 0.99,
         }}
+        id="2"
       />,
     );
     expect(result).toMatchSnapshot();

@@ -12,7 +12,12 @@ const Overview = () => {
       <Grid container spacing={2}>
         {chocolates.map(({ id, brand, name, priceInfo }) => (
           <Grid item xs={12} sm={6} md={4} lg={3} key={id}>
-            <ChocolateCard name={name} brand={brand} priceInfo={priceInfo} />
+            <ChocolateCard
+              name={name}
+              brand={brand}
+              priceInfo={priceInfo}
+              id={id}
+            />
           </Grid>
         ))}
       </Grid>
