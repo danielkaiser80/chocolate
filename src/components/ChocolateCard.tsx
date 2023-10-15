@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, Typography } from "@mui/material";
+import { Box, Card, CardContent, Link, Typography } from "@mui/material";
 
 interface PriceInfo {
   cheapestPricePer100g: number;
@@ -33,7 +33,7 @@ const ChocolateCard = ({ name, brand, priceInfo }: ChocolateCardProps) => (
               )}{" "}
               € je 100g
             </Typography>
-            <a href={priceInfo.cheapestShopLink}>Jetzt kaufen</a>
+            <Link href={priceInfo.cheapestShopLink}>Jetzt kaufen</Link>
           </Box>
           <Box>
             <Typography variant="body2">

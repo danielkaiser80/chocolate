@@ -1,0 +1,1264 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Overview > should render the header correctly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="MuiBox-root css-12waxkz"
+      >
+        <h1
+          class="MuiTypography-root MuiTypography-h3 css-gepadz-MuiTypography-root"
+        >
+          Übersicht: Köstliche Schokolade
+        </h1>
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+        >
+          Entdecken Sie eine Vielfalt an köstlichen Schokoladen-Tafeln von Spitzenmarken.
+        </p>
+        <img
+          alt="Chocolate Bar"
+          src="https://www.greenamerica.org/sites/default/files/2020-04/iStock-893183000%20-%20stacked%20chocolate%20bars.jpg"
+          style="max-width: 200px;"
+        />
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  Sesam
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Ritter-Sport
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  1,75
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/rs-sesam-re"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  1,94
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  Marzipan
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Ritter-Sport
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  1
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/rs-marzipan-ed"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  1,12
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  Die Kräftige
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Ritter-Sport
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  1
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/rs-kraeftig-ed"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  1,47
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  Salted Caramel
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Milka
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  0,99
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/mi-salted-re"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  1,04
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  Dark Milk
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Milka
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  1,11
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/mi-dark-dm"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  1,31
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  Weiße Schokolade
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Milka
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  0,66
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/mi-weiss-ed"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  0,73
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  Vegan Haselnuss
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Lindt
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  2,77
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/li-haselnuss-re"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  3,08
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  EXCELLENCE 99%
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Lindt
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  3,58
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/li-excellence-li"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  4,46
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  HELLO Roasted Almonds
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Lindt
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Derzeit nicht verfügbar 😭
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+        >
+          <div
+            class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+          >
+            <div
+              class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+            >
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <h5
+                  class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+                >
+                  🍫 
+                  Cacao Pur
+                </h5>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+                >
+                  Hersteller: 
+                  Lindt
+                </p>
+              </div>
+              <div
+                class="MuiBox-root css-1qm1lh"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Günstigster Preis:
+                   
+                  3,74
+                   
+                  € je 100g
+                </p>
+                <a
+                  class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                  href="https://example.com/li-cacao-mu"
+                >
+                  Jetzt kaufen
+                </a>
+              </div>
+              <div
+                class="MuiBox-root css-0"
+              >
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+                >
+                  Durchschnittspreis:
+                   
+                  4,88
+                   
+                  € je 100g
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="MuiBox-root css-12waxkz"
+    >
+      <h1
+        class="MuiTypography-root MuiTypography-h3 css-gepadz-MuiTypography-root"
+      >
+        Übersicht: Köstliche Schokolade
+      </h1>
+      <p
+        class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+      >
+        Entdecken Sie eine Vielfalt an köstlichen Schokoladen-Tafeln von Spitzenmarken.
+      </p>
+      <img
+        alt="Chocolate Bar"
+        src="https://www.greenamerica.org/sites/default/files/2020-04/iStock-893183000%20-%20stacked%20chocolate%20bars.jpg"
+        style="max-width: 200px;"
+      />
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-2 css-mhc70k-MuiGrid-root"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                Sesam
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Ritter-Sport
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                1,75
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/rs-sesam-re"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                1,94
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                Marzipan
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Ritter-Sport
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                1
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/rs-marzipan-ed"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                1,12
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                Die Kräftige
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Ritter-Sport
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                1
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/rs-kraeftig-ed"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                1,47
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                Salted Caramel
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Milka
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                0,99
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/mi-salted-re"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                1,04
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                Dark Milk
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Milka
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                1,11
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/mi-dark-dm"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                1,31
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                Weiße Schokolade
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Milka
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                0,66
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/mi-weiss-ed"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                0,73
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                Vegan Haselnuss
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Lindt
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                2,77
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/li-haselnuss-re"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                3,08
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                EXCELLENCE 99%
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Lindt
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                3,58
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/li-excellence-li"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                4,46
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                HELLO Roasted Almonds
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Lindt
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Derzeit nicht verfügbar 😭
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-4 MuiGrid-grid-lg-3 css-14j1sok-MuiGrid-root"
+      >
+        <div
+          class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-bhp9pd-MuiPaper-root-MuiCard-root"
+        >
+          <div
+            class="MuiCardContent-root css-46bh2p-MuiCardContent-root"
+          >
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <h5
+                class="MuiTypography-root MuiTypography-h5 css-ag7rrr-MuiTypography-root"
+              >
+                🍫 
+                Cacao Pur
+              </h5>
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-ahj2mt-MuiTypography-root"
+              >
+                Hersteller: 
+                Lindt
+              </p>
+            </div>
+            <div
+              class="MuiBox-root css-1qm1lh"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Günstigster Preis:
+                 
+                3,74
+                 
+                € je 100g
+              </p>
+              <a
+                class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineAlways css-1xylxj1-MuiTypography-root-MuiLink-root"
+                href="https://example.com/li-cacao-mu"
+              >
+                Jetzt kaufen
+              </a>
+            </div>
+            <div
+              class="MuiBox-root css-0"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body2 css-e784if-MuiTypography-root"
+              >
+                Durchschnittspreis:
+                 
+                4,88
+                 
+                € je 100g
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
