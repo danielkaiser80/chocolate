@@ -1,4 +1,4 @@
-import { Card, CardContent, Typography } from "@mui/material";
+import { Box, Card, CardContent, Typography } from "@mui/material";
 
 interface PriceInfo {
   cheapestPricePer100g: number;
@@ -10,23 +10,46 @@ interface ChocolateCardProps {
   brand: string;
   priceInfo?: PriceInfo;
 }
+
+const NUMBER_FORMAT = {
+  maximumFractionDigits: 2,
+};
 const ChocolateCard = ({ name, brand, priceInfo }: ChocolateCardProps) => (
   <Card>
     <CardContent>
-      <Typography variant="h5">{name}</Typography>
-      <Typography variant="body1">{brand}</Typography>
+      <Box mb={2}>
+        <Typography variant="h5">🍫 {name}</Typography>
+        <Typography variant="body1">Hersteller: {brand}</Typography>
+      </Box>
 
-      {priceInfo && (
+      {priceInfo ? (
         <>
-          <Typography variant="body2">
-            Price: {priceInfo.cheapestPricePer100g} EUR per 100g
-          </Typography>
-          <a href={priceInfo.cheapestShopLink}>Buy Now</a>
-          <Typography variant="body2">
-            Average Price for all stores: {priceInfo.averagePricePer100g} EUR
-            per 100g
-          </Typography>
+          <Box mb={2}>
+            <Typography variant="body2">
+              Günstigster Preis:{" "}
+              {priceInfo.cheapestPricePer100g.toLocaleString(
+                "de",
+                NUMBER_FORMAT,
+              )}{" "}
+              € je 100g
+            </Typography>
+            <a href={priceInfo.cheapestShopLink}>Jetzt kaufen</a>
+          </Box>
+          <Box>
+            <Typography variant="body2">
+              Durchschnittspreis:{" "}
+              {priceInfo.averagePricePer100g.toLocaleString(
+                "de",
+                NUMBER_FORMAT,
+              )}{" "}
+              € je 100g
+            </Typography>
+          </Box>
         </>
+      ) : (
+        <Box>
+          <Typography variant="body2">Derzeit nicht verfügbar 😭</Typography>
+        </Box>
       )}
     </CardContent>
   </Card>
