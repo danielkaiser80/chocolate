@@ -92,16 +92,20 @@ describe("Calculate chocolate information correctly", () => {
       {
         name: "Sesam",
         brand: "Ritter-Sport",
-        cheapestPricePer100g: 1,
-        cheapestShopLink: "https://example.com/rs-sesam-re",
-        averagePricePer100g: 1,
+        priceInfo: {
+          cheapestPricePer100g: 1,
+          cheapestShopLink: "https://example.com/rs-sesam-re",
+          averagePricePer100g: 1,
+        },
       },
       {
         name: "Marzipan",
         brand: "Ritter-Sport",
-        cheapestPricePer100g: 1,
-        cheapestShopLink: "https://example.com/rs-marzipan-ed",
-        averagePricePer100g: 1.11875,
+        priceInfo: {
+          cheapestPricePer100g: 1,
+          cheapestShopLink: "https://example.com/rs-marzipan-ed",
+          averagePricePer100g: 1.11875,
+        },
       },
     ]);
   });
@@ -132,9 +136,7 @@ describe("Calculate chocolate information correctly", () => {
       {
         name: "Sesam",
         brand: "Ritter-Sport",
-        cheapestPricePer100g: null,
-        cheapestShopLink: null,
-        averagePricePer100g: null,
+        priceInfo: undefined,
       },
     ]);
   });

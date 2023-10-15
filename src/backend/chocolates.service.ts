@@ -8,17 +8,13 @@ export const getChocolatesWithInfo = (data: Chocolate[]) =>
   data.map((chocolate) => ({
     name: chocolate.name,
     brand: chocolate.brand,
-    ...findCheapest(chocolate),
+    priceInfo: findCheapest(chocolate),
   }));
 
 const findCheapest = (chocolate: Chocolate) => {
   if (chocolate.prices.length === 0) {
     // Handle the case when there are no prices.
-    return {
-      cheapestShopLink: null,
-      cheapestPricePer100g: null,
-      averagePricePer100g: null,
-    };
+    return undefined;
   }
 
   const { cheapestPricePer100g, cheapestShopLink, total } =
