@@ -13,3 +13,14 @@ Feel free to fork and / or add a backend.
 - verify the API
 - add exception handler
 - style the 404 page in a nicer way
+
+## Develop and run the app
+
+- using `npm run` and one of the following keywords, you can develop or run the app
+- `dev` runs a dev server for development with hot reload enabled, on some browsers like Chrome this might not work well and for further development another solution might be needed
+- `build` builds the app and bundles it for a potential release
+- `lint` executes ESLint to check for known issues in the code
+- `test` runs all tests in an interactive mode
+- `test:ui` runs all tests in an interactive mode and shows some information on tests, coverage and module dependencies in a browser
+- `coverage` runs coverage analysis for the Github CI pipeline
+- `preview` runs the bundled app similar to a production environment; for this to work, a build needs to be run before
