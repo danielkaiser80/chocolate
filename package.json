@@ -10,6 +10,7 @@
     "test": "vitest",
     "test:ui": "vitest --ui",
     "coverage": "vitest run --coverage",
+    "postinstall": "patch-package",
     "preview": "vite preview"
   },
   "dependencies": {
@@ -42,6 +43,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.4",
     "jsdom": "^22.1.0",
+    "patch-package": "^8.0.0",
     "prettier": "^3.0.3",
     "typescript": "^5.0.2",
     "vite": "^4.5.0",
